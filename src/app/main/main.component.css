@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+  }
+
+  .content-wrapper {
+    flex-direction: row;
+  }
+
+  .content-wrapper:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .responsive-image {
+    width: 48%; 
+    border-radius: 8px;
+    margin: 0 1%; 
+  }
+
+  .text-block {
+    width: 48%;
+  }
+}
+
+.highlight-text {
+  color: black;
+  font-size: 1.8rem; 
+  font-weight: 700; 
+}
+.light-green-text {
+  color: rgb(114, 221, 120);
+  font-weight: 600; 
+  font-size: 1.6rem;
+}
+
